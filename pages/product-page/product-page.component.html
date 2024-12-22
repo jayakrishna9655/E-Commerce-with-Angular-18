@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+  
+</head>
+<body>
+    <header>
+        <nav>
+            <a  routerLink="/Home">Home</a>
+            <a  routerLink="/Products">Products</a>
+            <a  routerLink="/Contact">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="product-page">
+        <div class="product-container">
+            <div *ngFor="let key of geted_data" class="product">
+                <p class="id">{{key.id}}</p>
+                <p class="title">{{key.title}}</p>
+                <p class="price">{{key.price}}</p>
+                <p class="category">{{key.category}}</p>
+                <p class="description">{{key.description}}</p>
+                <img src="{{key.image}}" class="product-image">
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Product Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<router-outlet></router-outlet>
+
+
+
+    
+    

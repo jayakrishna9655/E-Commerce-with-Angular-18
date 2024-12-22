@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Professional</title>
+</head>
+<body>
+    <div class="login-wrapper">
+        <div class="login-container">
+            <h2 class="login-title">Welcome Back!</h2>
+            <form action="#" method="post">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="login-btn"><a routerLink="/Home">login</a></button>
+                <div class="footer-links">
+                    <a routerLink="/Sign">Forgot password?</a>
+                    <a routerLink="/Sign">Create an account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<router-outlet></router-outlet>
