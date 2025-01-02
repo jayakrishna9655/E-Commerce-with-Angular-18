@@ -37,6 +37,8 @@ This project is an e-commerce application developed using Angular 18. It feature
 ![Screenshot 2025-01-02 145042](https://github.com/user-attachments/assets/1e2cb021-f81d-4cc4-9d7a-7aa5a2e21aa9)
 
 ## Product Page
+ Using API..
+ 
 ![Screenshot 2025-01-02 144238](https://github.com/user-attachments/assets/b23b0b39-d4cc-41c2-9928-d80276b7d872)
 
 ## Getting Started
